@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+.cardss{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 50px;
+    padding: 20px;
+}
+
+.carddd{
+    display: flex;
+    width: 400px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 10px;
+    max-width: 90%;
+}
+
+.card{
+    margin: 20px;
+}
+
+.dropdown{
+    margin: 10px;
+}
+
+img{
+    max-width: 90%;
+}
+
+.navbar1{
+    background-color: blueviolet !important;
+}
+
+@media only screen and (max-width: 400px) {
+
+    
+  }
